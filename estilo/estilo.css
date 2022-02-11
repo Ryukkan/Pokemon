@@ -120,7 +120,7 @@ footer {
     padding: 30px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     nav ul {
         display: inline-block;
     }
