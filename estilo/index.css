@@ -41,6 +41,7 @@
 
 @media (max-width: 800px) {
     .jogos {
+        display: flex;
         flex-direction: column;
     }
 }
