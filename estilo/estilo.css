@@ -65,6 +65,7 @@ nav {
 
 nav ul {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     list-style: none;
 }
@@ -122,7 +123,7 @@ footer {
 
 @media (max-width: 800px) {
     nav ul {
-        display: inline-block;
+        flex-direction: column;
     }
 
     nav li {
