@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+:root {
+    --cor01: #BCBFB8;
+    --cor02: #7D8C87;
+    --cor03: #2E5159;
+    --cor04: #051926;
+    --cor05: #01080D;
+
+    --font-h1: serif;
+    --font-h2: serif;
+    --fonte-p: sans-serif;
+}
+
+.jogos {
+    display: flex;
+    justify-content: center;
+}
+
+.jogos div {
+    margin: 10px;
+    flex-grow: 1;
+    border: 3px solid var(--cor05);
+}
+
+.jogos a {
+    color: var(--cor05);
+    text-decoration: none;
+}
+
+.jogos a:hover {
+    color: var(--cor03);
+    text-decoration: underline;
+}
+
+.jogos figure {
+    text-align: center;
+    padding: 10px;
+}

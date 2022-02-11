@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.download {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.botao {
+    background-color: var(--cor05);
+    color: var(--cor01);
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 15px;  
+    margin: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.botao:hover {
+    text-decoration: underline;
+}
