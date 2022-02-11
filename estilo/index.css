@@ -43,9 +43,4 @@
     .jogos {
         flex-direction: column;
     }
-
-    .jogos div {
-        width: 50%;
-        margin: 10px auto;
-    }
 }
